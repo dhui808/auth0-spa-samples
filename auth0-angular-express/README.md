@@ -1,6 +1,6 @@
 # Auth0 Angular API sample
 
-This is a sample Node + Express application as the backend of the Auth0 Angular SPA. to call `/api/external` endpoint, the user needs to have the `ping-nodejs-api` role.
+This is a sample Node + Express application as the backend of the Auth0 Angular SPA. to call `/api/external` endpoint, the user needs to have the `ping` permission.
 
 ## Configuration
 
