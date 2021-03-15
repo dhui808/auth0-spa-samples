@@ -1,0 +1,12 @@
+**/auth_config.json
+**/auth_config_api.json
+
+# compiled output
+**/dist/
+
+# dependencies
+**/node_modules/
+
+
+**/.settings/
+
