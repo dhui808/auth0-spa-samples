@@ -13,7 +13,7 @@
     "dev": "npm-run-all start",
     "prod": "npm-run-all server:app",
     "postbuild": "npm run copy:server",
-    "copy:server": "cp server.js auth_config.json dist/auth0-angular"
+    "copy:server": "cpx \"{auth_config.json,server.js}\" dist/auth0-angular"
   },
   "private": true,
   "dependencies": {
@@ -31,6 +31,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "cors": "^2.8.5",
+    "cpx": "^1.5.0",
     "express": "^4.17.1",
     "express-jwt": "^6.0.0",
     "express-jwt-authz": "^2.4.1",

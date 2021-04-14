@@ -31,7 +31,11 @@ terminal window.
 
 ## Build
 
-Run `npm build` to build the project. The build artifacts will be stored in the `dist/auth0-angular` directory.
+Install packages
+`npm i`
+
+Run `npm run build` to build the project. The build artifacts will be stored in the `dist/auth0-angular` directory.
+`npm run build`
 
 ## Run Using Docker
 

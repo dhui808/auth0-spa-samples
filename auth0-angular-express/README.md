@@ -17,6 +17,9 @@ items:
 
 ## Run backend
 
+Install packages
+`npm i`
+
 ```
 npm run dev
 ```
